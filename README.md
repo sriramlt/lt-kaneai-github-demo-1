@@ -11,6 +11,7 @@ It provides a few simple endpoints to showcase LambdaTest AI-powered test genera
 
 - **GET /** → returns a welcome message  
 - **GET /api/echo?msg=<text>** → returns a JSON response `{ "echo": "<text>" }`  
+- GET /hello/:name → returns a greeting "Hello, <name>!"
 
 ---
 
